@@ -38,4 +38,4 @@ function changeBgColorRandom() {
     bodyEl.style.backgroundColor = `${randomBodyColorGenerator.getRandomHexColor()}`;
   }
   
-  randomBodyColorGenerator.start();
+randomBodyColorGenerator.start();
