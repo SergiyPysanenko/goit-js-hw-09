@@ -15,9 +15,9 @@ const secondsRef = document.querySelector('[data-seconds]');
 let timerId = null;
 
 timerEl.style ="min-height: 100vh; display: flex; align-items: center; flex-direction: column;justify-content: center;padding: 15px;";
-startBtn.style="color: black; border-radius: 4px; padding: 10px 20px 8px; margin: 10px 0px 10px;  ;font-size: 11px;text-transform: uppercase;letter-spacing: 0.2em;border: 1px solid #555;cursor: pointer;" 
+startBtn.style="color: black; border-radius: 4px; padding: 10px 20px 8px; margin: 10px 0px 10px; font-size: 11px;text-transform: uppercase;letter-spacing: 0.2em;border: 1px solid #555;cursor: pointer;" 
 startBtn.setAttribute('disabled', true);
-// dateTime.style="font-size: 2.5em; padding: 10px; text-align: center; margin: 0 auto; background: #ccc;"
+
 
 
 function convertMs(ms) {
